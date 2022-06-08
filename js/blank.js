@@ -1,1 +1,0 @@
-alert("Hello! This website is built by Tu Nguyen, have fun."); 
