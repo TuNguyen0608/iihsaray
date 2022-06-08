@@ -80,22 +80,36 @@ html{
 }
 
 .button{
-    padding: 10px 35px;
+
     background-color: transparent;
     border: 1px solid white;
     color: white;
     outline: none;
     transition-delay: 1s ease;
-}
-.button:hover{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
     cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(58, 222, 149);
+}
+  
+.button:hover {
     background-color: white;
-    color: black;
-    box-shadow: 0 0 5px white,  0 0 10px white;
-    font-weight: bold;
+}
+  
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 /*------------about-----------*/
 #about{
+    min-height: 10vh;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
